@@ -6,7 +6,7 @@ class Triangle
     @side_3 = side_3
   end
 
-  def tri
+  def kind
     if (side_1 == side_2) && (side_2 == side_3)
       :confirm
     elsif (side_1 == side_2) && (side_2 < side_3 || side_2 > side_3)
